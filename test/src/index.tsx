@@ -5,8 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Game} from './game_pb'
 
+
 class Mock{
-    game: Game
+    game: Game;
     constructor(){
         this.game = new Game();
     }

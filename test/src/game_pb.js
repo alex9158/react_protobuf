@@ -440,5 +440,6 @@ proto.uss.Player.prototype.setY = function(value) {
   Message.setProto3IntField(this, 3, value);
 };
 
+export const Game = proto.uss.Game;
 
-goog.object.extend(exports, proto.uss);
+export default proto.uss;
